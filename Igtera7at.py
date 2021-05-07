@@ -38,4 +38,4 @@ async def on_message(message):
         sent_webhook = webhook.execute()
     
 # Run Your bot
-bot.run('NzM2NTQ3NzYzMTAxMzY4MzMy.XxwZjw.Q0FgB_y0vpjV8X9CIYPqes1yxR0')
+bot.run('')
