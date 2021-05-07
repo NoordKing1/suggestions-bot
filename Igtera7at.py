@@ -33,7 +33,7 @@ async def on_message(message):
         # print the sender and Suggestion
         print(str(sender)+" Has Send The Suggestion "+str(Suggestion))
 
-        url_is = "https://discord.com/api/webhooks/840267516165226557/q-YPzNBeeEoS-xW1ykXj_1R-hIbCiCAQkvgZHG9VzA3wejGl2btvBiJ71beLKZSiURzN"
+        url_is = ""
         webhook = DiscordWebhook(url=url_is, content='**New Suggestion**\n **Sender:** `'+str(sender)+'`\n **Suggestion:** `'+str(Suggestion)+'`\n **from server:** `'+str(From_Server)+'`')
         sent_webhook = webhook.execute()
     
